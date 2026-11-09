@@ -1,0 +1,18 @@
+{
+  "name": "Astrox — Astral Luxury Bangladesh",
+  "short_name": "Astrox",
+  "description": "Bengali regal heritage meets modern sovereignty. Handcrafted Dhakai Muslin sarees, royal Jacquard panjabis, authentic K-Beauty, and precision audio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07070A",
+  "theme_color": "#07070A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/brand/astrox-mark.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

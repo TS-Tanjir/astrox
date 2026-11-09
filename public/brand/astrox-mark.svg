@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" fill="none">
+  <defs>
+    <linearGradient id="astrox-gold-left" x1="120" y1="14" x2="40" y2="175" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF275" />
+      <stop offset="45%" stop-color="#F7C926" />
+      <stop offset="100%" stop-color="#D99B04" />
+    </linearGradient>
+    <linearGradient id="astrox-gold-right" x1="120" y1="14" x2="200" y2="175" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF48C" />
+      <stop offset="55%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#E5AC05" />
+    </linearGradient>
+  </defs>
+  <!-- Left swept wing of the Astrox arch -->
+  <path
+    d="M120 14 C112 72 82 118 22 140 C52 143 74 152 91 168 L115 144 C101 135 95 120 99 102 C106 76 115 48 120 14 Z"
+    fill="url(#astrox-gold-left)"
+  />
+  <!-- Right swept wing of the Astrox arch -->
+  <path
+    d="M120 14 C128 72 158 118 218 140 C188 143 166 152 149 168 L125 144 C139 135 145 120 141 102 C134 76 125 48 120 14 Z"
+    fill="url(#astrox-gold-right)"
+  />
+  <!-- Crescent cradle inside the arch -->
+  <path
+    d="M95 126 C106 142 134 142 145 126 C136 148 104 148 95 126 Z"
+    fill="url(#astrox-gold-right)"
+  />
+  <!-- Four-point astral star -->
+  <path
+    d="M120 96 C122 108 126 112 138 114 C126 116 122 120 120 132 C118 120 114 116 102 114 C114 112 118 108 120 96 Z"
+    fill="#FFF48C"
+  />
+</svg>

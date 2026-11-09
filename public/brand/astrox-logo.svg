@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" fill="none">
+  <defs>
+    <linearGradient id="logo-gold-1" x1="70" y1="8" x2="18" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF275" />
+      <stop offset="50%" stop-color="#F7C926" />
+      <stop offset="100%" stop-color="#D99B04" />
+    </linearGradient>
+    <linearGradient id="logo-gold-2" x1="70" y1="8" x2="122" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF48C" />
+      <stop offset="55%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#E5AC05" />
+    </linearGradient>
+    <linearGradient id="wordmark-gold" x1="260" y1="42" x2="260" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE954" />
+      <stop offset="55%" stop-color="#F5C71A" />
+      <stop offset="100%" stop-color="#E5AC05" />
+    </linearGradient>
+  </defs>
+  <!-- Emblem Mark -->
+  <g transform="translate(8, 6) scale(0.62)">
+    <path
+      d="M120 14 C112 72 82 118 22 140 C52 143 74 152 91 168 L115 144 C101 135 95 120 99 102 C106 76 115 48 120 14 Z"
+      fill="url(#logo-gold-1)"
+    />
+    <path
+      d="M120 14 C128 72 158 118 218 140 C188 143 166 152 149 168 L125 144 C139 135 145 120 141 102 C134 76 125 48 120 14 Z"
+      fill="url(#logo-gold-2)"
+    />
+    <path
+      d="M95 126 C106 142 134 142 145 126 C136 148 104 148 95 126 Z"
+      fill="url(#logo-gold-2)"
+    />
+    <path
+      d="M120 96 C122 108 126 112 138 114 C126 116 122 120 120 132 C118 120 114 116 102 114 C114 112 118 108 120 96 Z"
+      fill="#FFF48C"
+    />
+  </g>
+  <!-- Geometric Rounded Wordmark "astrox" -->
+  <g fill="url(#wordmark-gold)">
+    <!-- a -->
+    <path d="M168 54 H206 C216 54 222 60 222 70 V102 H172 C161 102 155 96 155 86 C155 76 161 71 172 71 H208 V66 C208 64 206 63 202 63 H164 V54 Z M174 80 C170 80 168 82 168 86 C168 90 170 92 174 92 H208 V80 H174 Z" />
+    <!-- s -->
+    <path d="M234 54 H284 V63 H248 C245 63 243 65 243 68 C243 71 245 73 248 73 H274 C284 73 290 79 290 88 C290 96 284 102 274 102 H230 V93 H271 C275 93 277 91 277 88 C277 85 275 83 271 83 H245 C235 83 230 77 230 68 C230 59 235 54 245 54 Z" />
+    <!-- t -->
+    <path d="M304 38 H318 V54 H340 V63 H318 V86 C318 90 321 92 326 92 H340 V102 H322 C310 102 304 96 304 84 V38 Z" />
+    <!-- r -->
+    <path d="M350 70 C350 59 357 54 369 54 H392 V64 H371 C366 64 364 66 364 71 V102 H350 V70 Z" />
+    <!-- o -->
+    <path d="M414 54 H442 C454 54 461 61 461 73 V83 C461 95 454 102 442 102 H414 C402 102 395 95 395 83 V73 C395 61 402 54 414 54 Z M416 64 C411 64 409 67 409 73 V83 C409 89 411 92 416 92 H440 C445 92 447 89 447 83 V73 C447 67 445 64 440 64 H416 Z" />
+    <!-- x -->
+    <path d="M466 54 H482 L494 70 L506 54 H520 L502 78 L520 102 H505 L493 85 L481 102 H466 L485 78 L466 54 Z" />
+  </g>
+</svg>

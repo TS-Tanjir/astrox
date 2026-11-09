@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ink-950: #07070a;
+    --bg-ink-900: #0d0d12;
+    --bg-ink-850: #121319;
+    --bg-ink-800: #181922;
+    --line-gold: rgba(217, 188, 130, 0.12);
+    --line-subtle: rgba(255, 255, 255, 0.07);
+    --gold-champagne: #d9bc82;
+    --gold-bright: #fde047;
+    --gold-deep: #b8975a;
+    --text-primary: #f4f1ea;
+    --text-muted: #9c978e;
+  }
+
+  body {
+    background-color: var(--bg-ink-950);
+    color: var(--text-primary);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar for Luxury Dark Aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07070a;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 188, 130, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 188, 130, 0.45);
+}
+
+/* Gold Gradient Utilities */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #fde954 0%, #d9bc82 50%, #b8975a 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff48c 0%, #d9bc82 50%, #b8975a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-glow {
+  border: 1px solid rgba(217, 188, 130, 0.28);
+  box-shadow: 0 0 15px -3px rgba(217, 188, 130, 0.12);
+}
+
+.border-gold-hover:hover {
+  border-color: rgba(217, 188, 130, 0.55);
+  box-shadow: 0 0 25px -4px rgba(217, 188, 130, 0.22);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(13, 13, 18, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(217, 188, 130, 0.1);
+}
+
+.glass-dropdown {
+  background: rgba(18, 19, 25, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(217, 188, 130, 0.16);
+}
+
+/* Astrox Arch Mask for Images & Cards */
+.arch-mask {
+  border-radius: 9999px 9999px 12px 12px;
+}
+
+/* Star Spark Animation */
+@keyframes astral-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.04);
+  }
+}
+
+.animate-astral {
+  animation: astral-pulse 4s ease-in-out infinite;
+}
